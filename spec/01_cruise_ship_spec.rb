@@ -1,7 +1,7 @@
 require_relative "../lib/cruise_ship.rb"
 
 
-escribe "#select_winner" do
+describe "#select_winner" do
   it "returns the name of the passenger who stays in suite a and whose name begins with the letter 'A'" do 
 
     passengers = {
